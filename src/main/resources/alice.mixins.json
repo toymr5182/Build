@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.nnpg.alice.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "NameProtectMeteorTextRendererMixin",
+    "NameProtectTextVisitFactoryMixin",
+    "WaterNoPushEntityMixin",
+    "VelocityEntityMixin",
+    "ClientPlayerEntityMixin",
+    "ViaFabricPlusProtocolMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "alice",
+  "version": "${version}",
+  "name": "ALICE",
+  "description": "ALICE port workspace for Minecraft 26.1.2.",
+  "authors": ["tdungg"],
+  "contact": {"homepage": "https://dungxip.xyz"},
+  "license": "All Rights Reserved",
+  "icon": "assets/alice/icon.png",
+  "environment": "client",
+  "entrypoints": {"meteor": ["com.nnpg.alice.AliceAddon"]},
+  "mixins": ["alice.mixins.json"],
+  "custom": {"meteor-client:color": "225,25,25", "modmenu": {"links": {"modmenu.website": "https://dungxip.xyz"}}},
+  "depends": {
+    "java": ">=25",
+    "minecraft": "26.1.2",
+    "fabricloader": ">=0.18.4",
+    "meteor-client": "*"
+  }
+}
